@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Calories Fix</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <img src="assets/img/logo.png" alt="" class="ss"><span>Calories Fix</span>
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#meals" class="nav__link">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#reviews" class="nav__link">Reviews</a>
+                    </li>
+                    <li>
+                        <a href="#care" class="nav__link">Choose Us</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <!-- Theme Button -->
+                <i class="ri-moon-clear-fill nav__theme" id="theme-button"></i>
+            </div>
+            <!-- Toggle Button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-5-fill"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <div>
+                        <h1 class="home__title">
+                            Fix Your Calories, <span>Fuel Your Body</span>
+                        </h1>
+                        <p class="home__description">
+                            Healthy, balanced meals designed by fitness experts to help you build muscle, lose fat, and stay energized every day.
+                        </p>
+                        <a href="#" class="button">Order Your Meals</a>
+                    </div>
+                    <div class="home__social">
+                        <a href="" target="_blank" class="home__link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="home__link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="home__link">
+                            <i class="ri-whatsapp-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="home__link">
+                            <i class="ri-mail-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__image">
+                    <img src="assets/img/hearo-removebg-preview.png" alt="" class="home__img">
+                    <div class="home__phone">
+                        <div class="home__icon">
+                            <i class="ri-phone-fill"></i>
+                        </div>
+                        <address class="home__number">
+                     Phone Number:
+                     <span>+971566661184</span>
+                    </address>
+                    </div>
+                    <p class="home__comment">
+                        Trusted by gym coaches and athletes across the UAE for clean, precise nutrition.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--==================== SERVICE ====================-->
+        <section class="service section">
+            <div class="section__title">Our Healthy Menus</div>
+            <div class="new__container container grid">
+                <div class="new__content grid">
+                    <article class="new__card">
+                        <div class="new__data">
+                            <h2 class="new__title">Breakfast & Bakery</h2>
+                            <p class="new__description">
+                                Healthy breakfast meals and baked options made to start your day with the right energy and balanced calories.
+                            </p>
+                        </div>
+                        <img src="assets/img/menu-1.png" alt="" class="new__img">
+                    </article>
+
+                    <article class="new__card">
+                        <div class="new__data">
+                            <h2 class="new__title">Healthy Desserts</h2>
+                            <p class="new__description">
+                                Guilt-free desserts crafted with smart ingredients to satisfy your cravings without breaking your calories.
+                            </p>
+                        </div>
+                        <img src="assets/img/menu-1.png" alt="" class="new__img">
+                    </article>
+
+                    <article class="new__card">
+                        <div class="new__data">
+                            <h2 class="new__title">Lunch Meals</h2>
+                            <p class="new__description">
+                                Protein-rich, perfectly balanced lunch meals designed to support your training and daily performance.
+                            </p>
+                        </div>
+                        <img src="assets/img/menu-1.png" alt="" class="new__img">
+                    </article>
+                </div>
+                <a href="menu.html" class="new__button button">Explore All Menus</a>
+            </div>
+        </section>
+        <!--==================== MEALS ====================-->
+        <section class="meals section" id="meals">
+            <h2 class="section__title">What’s Included</h2>
+
+            <div class="meals__container container">
+                <div class="swiper meals__swiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- Meal Card -->
+                        <article class="meal__card swiper-slide">
+                            <div class="meal__image">
+                                <img src="assets/img/menu-1.png" alt="Dinner Meal">
+                            </div>
+
+                            <div class="meal__content">
+                                <span class="meal__type">Dinner</span>
+                                <h3 class="meal__title">Grilled Steak with Avocado Chimichurri</h3>
+
+                                <div class="meal__macros">
+                                    <div class="macro">
+                                        <span>Calories</span>
+                                        <strong>352.0</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Fat</span>
+                                        <strong>16.4g</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Carb</span>
+                                        <strong>20.1g</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Protein</span>
+                                        <strong>34.3g</strong>
+                                    </div>
+                                </div>
+
+                                <div class="meal__allergens">
+                                    <h4>Allergens</h4>
+                                    <p>Garlic, Soy, Spicy</p>
+                                </div>
+                            </div>
+                            <a href="#" class="button">Order Now</a>
+
+                        </article>
+
+                        <!-- انسخ الكارت ده وعدل البيانات -->
+                        <!-- Meal Card -->
+                        <article class="meal__card swiper-slide">
+                            <div class="meal__image">
+                                <img src="assets/img/menu-2.png" alt="Lunch Meal">
+                            </div>
+
+                            <div class="meal__content">
+                                <span class="meal__type">Lunch</span>
+                                <h3 class="meal__title">Caribbean Style Chicken</h3>
+
+                                <div class="meal__macros">
+                                    <div class="macro">
+                                        <span>Calories</span>
+                                        <strong>428.0</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Fat</span>
+                                        <strong>14.6g</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Carb</span>
+                                        <strong>34.0g</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Protein</span>
+                                        <strong>41.8g</strong>
+                                    </div>
+                                </div>
+
+                                <div class="meal__allergens">
+                                    <h4>Allergens</h4>
+                                    <p>Garlic, Soy, Spicy</p>
+                                </div>
+                            </div>
+                            <a href="#" class="button">Order Now</a>
+
+                        </article>
+
+                        <article class="meal__card swiper-slide">
+                            <div class="meal__image">
+                                <img src="assets/img/menu-2.png" alt="Lunch Meal">
+                            </div>
+
+                            <div class="meal__content">
+                                <span class="meal__type">Lunch</span>
+                                <h3 class="meal__title">Caribbean Style Chicken</h3>
+
+                                <div class="meal__macros">
+                                    <div class="macro">
+                                        <span>Calories</span>
+                                        <strong>428.0</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Fat</span>
+                                        <strong>14.6g</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Carb</span>
+                                        <strong>34.0g</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Protein</span>
+                                        <strong>41.8g</strong>
+                                    </div>
+                                </div>
+
+                                <div class="meal__allergens">
+                                    <h4>Allergens</h4>
+                                    <p>Garlic, Soy, Spicy</p>
+                                </div>
+                            </div>
+                            <a href="#" class="button">Order Now</a>
+
+                        </article>
+
+                        <article class="meal__card swiper-slide">
+                            <div class="meal__image">
+                                <img src="assets/img/menu-2.png" alt="Lunch Meal">
+                            </div>
+
+                            <div class="meal__content">
+                                <span class="meal__type">Lunch</span>
+                                <h3 class="meal__title">Caribbean Style Chicken</h3>
+
+                                <div class="meal__macros">
+                                    <div class="macro">
+                                        <span>Calories</span>
+                                        <strong>428.0</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Fat</span>
+                                        <strong>14.6g</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Carb</span>
+                                        <strong>34.0g</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Protein</span>
+                                        <strong>41.8g</strong>
+                                    </div>
+                                </div>
+
+                                <div class="meal__allergens">
+                                    <h4>Allergens</h4>
+                                    <p>Garlic, Soy, Spicy</p>
+                                </div>
+                            </div>
+                            <a href="#" class="button">Order Now</a>
+
+                        </article>
+
+                        <article class="meal__card swiper-slide">
+                            <div class="meal__image">
+                                <img src="assets/img/menu-2.png" alt="Lunch Meal">
+                            </div>
+
+                            <div class="meal__content">
+                                <span class="meal__type">Lunch</span>
+                                <h3 class="meal__title">Caribbean Style Chicken</h3>
+
+                                <div class="meal__macros">
+                                    <div class="macro">
+                                        <span>Calories</span>
+                                        <strong>428.0</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Fat</span>
+                                        <strong>14.6g</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Carb</span>
+                                        <strong>34.0g</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Protein</span>
+                                        <strong>41.8g</strong>
+                                    </div>
+                                </div>
+
+                                <div class="meal__allergens">
+                                    <h4>Allergens</h4>
+                                    <p>Garlic, Soy, Spicy</p>
+                                </div>
+                            </div>
+                            <a href="#" class="button">Order Now</a>
+
+                        </article>
+
+                        <article class="meal__card swiper-slide">
+                            <div class="meal__image">
+                                <img src="assets/img/menu-2.png" alt="Lunch Meal">
+                            </div>
+
+                            <div class="meal__content">
+                                <span class="meal__type">Lunch</span>
+                                <h3 class="meal__title">Caribbean Style Chicken</h3>
+
+                                <div class="meal__macros">
+                                    <div class="macro">
+                                        <span>Calories</span>
+                                        <strong>428.0</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Fat</span>
+                                        <strong>14.6g</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Carb</span>
+                                        <strong>34.0g</strong>
+                                    </div>
+                                    <div class="macro">
+                                        <span>Protein</span>
+                                        <strong>41.8g</strong>
+                                    </div>
+                                </div>
+
+                                <div class="meal__allergens">
+                                    <h4>Allergens</h4>
+                                    <p>Garlic, Soy, Spicy</p>
+                                </div>
+                            </div>
+                            <a href="#" class="button">Order Now</a>
+
+                        </article>
+                    </div>
+
+                    <div class="meals__controls">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== REVIEWS ====================-->
+        <section class="reviews section" id="reviews">
+            <div class="reviews__container container grid">
+                <div class="reviews__content">
+                    <h4 class="section__subtitle">OUR REVIEWS</h4>
+                    <h2 class="section__title">What Our Clients Say?</h2>
+                    <div class="reviews__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <article class="reviews__card swiper-slide">
+                                <div class="reviews__profile">
+                                    <img src="assets/img/reviews-img-1.png" alt="" class="reviews__photo">
+                                    <div class="reviews__data">
+                                        <h3 class="reviews__name">
+                                            Ahmed Al Mansoori <span>(Fitness Coach)</span>
+                                        </h3>
+                                        <div class="reviews__rating">
+                                            <div class="reviews__stars">
+                                                <i class="ri-star-s-fill"></i>
+                                                <i class="ri-star-s-fill"></i>
+                                                <i class="ri-star-s-fill"></i>
+                                                <i class="ri-star-s-fill"></i>
+                                                <i class="ri-star-s-fill"></i>
+                                            </div>
+                                            <h3 class="reviews__number">5.0</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="reviews__comment">
+                                    Honestly one of the best healthy food experiences I’ve tried in the UAE. The meals are clean, tasty, and perfectly portioned. You can feel the difference in your energy.
+                                </p>
+                            </article>
+
+                            <article class="reviews__card swiper-slide">
+                                <div class="reviews__profile">
+                                    <img src="assets/img/reviews-img-1.png" alt="" class="reviews__photo">
+                                    <div class="reviews__data">
+                                        <h3 class="reviews__name">
+                                            Alaa Hassan
+                                        </h3>
+                                        <div class="reviews__rating">
+                                            <div class="reviews__stars">
+                                                <i class="ri-star-s-fill"></i>
+                                                <i class="ri-star-s-fill"></i>
+                                                <i class="ri-star-s-fill"></i>
+                                                <i class="ri-star-s-fill"></i>
+                                                <i class="ri-star-s-fill"></i>
+                                            </div>
+                                            <h3 class="reviews__number">5.0</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="reviews__comment">
+                                    Calories Fix helped me stay consistent with my diet. Great taste, accurate calories, and very professional service. Highly recommended.
+                                </p>
+                            </article>
+
+                            <article class="reviews__card swiper-slide">
+                                <div class="reviews__profile">
+                                    <img src="assets/img/reviews-img-1.png" alt="" class="reviews__photo">
+                                    <div class="reviews__data">
+                                        <h3 class="reviews__name">
+                                            Mohamed Saeed
+                                        </h3>
+                                        <div class="reviews__rating">
+                                            <div class="reviews__stars">
+                                                <i class="ri-star-s-fill"></i>
+                                                <i class="ri-star-s-fill"></i>
+                                                <i class="ri-star-s-fill"></i>
+                                                <i class="ri-star-s-fill"></i>
+                                                <i class="ri-star-s-fill"></i>
+                                            </div>
+                                            <h3 class="reviews__number">5.0</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="reviews__comment">
+                                    As a gym trainee, this is exactly what I needed. High-quality meals, perfect macros, and no stress about counting calories anymore.
+                                </p>
+                            </article>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div>
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__image">
+                    <img src="assets/img/review-img.png" alt="" class="reviews__img">
+                </div>
+            </div>
+        </section>
+        <!--==================== APP ====================-->
+        <section class="app section" id="howitworks">
+            <div class="app__container container grid">
+
+                <!-- Steps -->
+                <div class="app__data">
+                    <h4 class="section__subtitle">HOW IT WORKS</h4>
+                    <h2 class="section__title">
+                        Order in Simple Steps
+
+                    </h2>
+
+                    <div class="steps">
+                        <article class="step active">
+                            <span class="step__number">01</span>
+                            <h3 class="step__title">Choose Your Favorite Meals</h3>
+                            <p class="step__description">
+                                Select the meal category you like, pick your favorite dishes, and add them to your cart.
+                            </p>
+                        </article>
+
+                        <article class="step">
+                            <span class="step__number">02</span>
+                            <h3 class="step__title">Enter Your Details</h3>
+                            <p class="step__description">
+                                Fill in your contact information and delivery address to complete your order.
+                            </p>
+                        </article>
+
+                        <article class="step">
+                            <span class="step__number">03</span>
+                            <h3 class="step__title">Confirm & Receive Your Order</h3>
+                            <p class="step__description">
+                                We will contact you to confirm your order, then your healthy meals will be delivered straight to your door.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Video -->
+                <div class="app__image">
+                    <video class="app__video" src="assets/img/document_5940266896552107042.mp4" muted loop playsinline>
+            </video>
+                </div>
+
+            </div>
+        </section>
+        <!--==================== MAP ====================-->
+        <section class="care section" id="care">
+            <h2 class="section__title">
+                Why Choose <br> Calories Fix?
+            </h2>
+            <div class="care__container container grid">
+                <img src="assets/img/menu-1.png" alt="" class="care__img">
+                <ul class="care__list">
+                    <li class="care__item">
+                        <i class="ri-check-double-fill"></i>
+                        <p>
+                            Precisely calculated calories and macros to help you reach your fitness goals without guessing or stress.
+                        </p>
+                    </li>
+                    <li class="care__item">
+                        <i class="ri-check-double-fill"></i>
+                        <p>
+                            Meals designed by fitness experts to support muscle building, fat loss, and overall performance.
+                        </p>
+                    </li>
+                    <li class="care__item">
+                        <i class="ri-check-double-fill"></i>
+                        <p>
+                            Fresh, high-quality ingredients prepared daily to ensure great taste and clean nutrition.
+                        </p>
+                    </li>
+                    <li class="care__item">
+                        <i class="ri-check-double-fill"></i>
+                        <p>
+                            Wide variety of meals so you never get bored while staying committed to your healthy lifestyle.
+                        </p>
+                    </li>
+                    <li class="care__item">
+                        <i class="ri-check-double-fill"></i>
+                        <p>
+                            Reliable service with order confirmation, on-time delivery, and full customer support across the UAE.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--==================== Contact ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <div class="contact__container container grid">
+                <form action="" class="contact__form grid" id="contact-form">
+                    <input type="text" placeholder="Names" name="user_name" required class="contact__input">
+                    <input type="email" placeholder="Email" name="user_email" required class="contact__input">
+
+                    <textarea placeholder="" name="user_message" required class="contact__input contact__area"></textarea>
+                    <button type="submit" class="button">Send Message</button>
+                    <p class="contact__message" id="contact-message">Message Sent SuccessFully</p>
+                </form>
+                <div class="contact__content grid">
+                    <div class="contact__data grid">
+                        <address class="contact__address">
+                            <i class="ri-mail-ai-fill"></i>
+                                <span>MM@gmail.com</span>
+                        </address>
+                        <address class="contact__address">
+                            <i class="ri-smartphone-fill"></i>
+                                <span>+0566661184</span>
+                        </address>
+                        <address class="contact__address">
+                            <i class="ri-map-pin-2-fill"></i>
+                                <span>portsails, egypt</span>
+                        </address>
+                        <address class="contact__address">
+                            <i class="ri-time-fill"></i>
+                                <span> Available: Mon-fri , 9AM-6PM</span>
+                        </address>
+                    </div>
+                    <div class="contact__social">
+                        <a href="#" target="_blank" class="contact__link">
+                            <i class="ri-whatsapp-fill"></i>
+                        </a>
+                        <a href="#" target="_blank" class="contact__link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="#" target="_blank" class="contact__link">
+                            <i class="ri-telegram-2-fill"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <a href="#" class="footer__logo">Calories Fix</a>
+            <div class="footer__content grid">
+                <a href="#" class="footer__link">Terms & Agreements</a>
+                <a href="#" class="footer__link">Privacy Policy</a>
+                <div class="footer__social">
+                    <a href="#" target="_blank">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="ri-whatsapp-fill"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="ri-phone-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <span class="footer__copy">
+            &#169; All Rights Reserved By Bedimcode
+        </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-double-line"></i>
+    </a>
+    <a href="#" class="scrollupwhatsapp">
+        <i class="ri-whatsapp-fill"></i>
+    </a>
+    <script>
+        /* Steps animation */
+        const steps = document.querySelectorAll('.step');
+        let currentStep = 0;
+
+        setInterval(() => {
+            steps.forEach(step => step.classList.remove('active'));
+            steps[currentStep].classList.add('active');
+            currentStep = (currentStep + 1) % steps.length;
+        }, 3000);
+
+        /* Video play only when visible */
+        const video = document.querySelector('.app__video');
+
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            }, {
+                threshold: 0.5
+            }
+        );
+
+        observer.observe(video);
+    </script>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
